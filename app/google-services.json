@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "261486228690",
+    "project_id": "ampapp-9820e",
+    "storage_bucket": "ampapp-9820e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261486228690:android:164995366c8145797ee90b",
+        "android_client_info": {
+          "package_name": "com.example.amp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261486228690-i2ma7qjn2eb061g70orf78phl9ru3ega.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAck6lPzBNLHH10T_fHnpTHx0anP74mVkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261486228690-i2ma7qjn2eb061g70orf78phl9ru3ega.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

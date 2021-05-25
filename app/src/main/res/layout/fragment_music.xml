@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_gravity="bottom"
+    tools:context=".MusicFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:id="@+id/songDescription"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:gravity="left"/>
+
+        <Button
+            android:id="@+id/pause"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/songDescription"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ic_pause_"/>
+        <Button
+            android:id="@+id/play"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/pause"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ic_play"/>
+
+
+    </RelativeLayout>
+
+</FrameLayout>
