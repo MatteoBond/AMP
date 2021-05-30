@@ -220,15 +220,15 @@ public class ContentPlayerActivity extends AppCompatActivity {
     }
 
     // This was the attempt of adding the fragment when the back button of Android OS as pressed
-    @Override
-    public boolean onKeyDown(int keyCode, KeyEvent event){
-        if(keyCode == KeyEvent.KEYCODE_BACK){
-            FragmentManager manager = getSupportFragmentManager();
-            FragmentTransaction fragmentTransaction = manager.beginTransaction();
-            fragmentTransaction.add(R.id.container, new MusicFragment());
-            fragmentTransaction.commit();
-
-        }
-        return true;
-    }
+//    @Override
+//    public boolean onKeyDown(int keyCode, KeyEvent event){
+//        if(keyCode == KeyEvent.KEYCODE_BACK){
+//            FragmentManager manager = getSupportFragmentManager();
+//            FragmentTransaction fragmentTransaction = manager.beginTransaction();
+//            fragmentTransaction.add(R.id.container, new MusicFragment());
+//            fragmentTransaction.commit();
+//
+//        }
+//        return true;
+//    }
 }
